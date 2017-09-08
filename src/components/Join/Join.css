@@ -1,0 +1,142 @@
+section{
+	background: url("./images/warp_18.jpg");
+	width: 100%;
+}
+section .top{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 24px;
+	display: flex;
+	flex-direction: column;
+}
+section .top{
+	background: url("./images/top_03.jpg") no-repeat;
+	background-color: #fff;
+}
+section .top h1{
+	line-height: 60px;
+	font-size: 30px;
+	border-left: 4px solid #000;
+	margin-left: 50px;
+	padding-left: 19px;
+	color: #2a2e31;
+}
+.shangpin{
+	width: 1100px;
+	margin: 0 auto;
+	margin-top: 87px;
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	display: flex;
+}
+.shangpin img:nth-child(1){
+	display: block;
+	margin: 9px 10px 9px 10px;
+}
+.shangpin h2:nth-child(2){
+	width: 240px;
+	margin-top: 30px;
+	font-size: 18px;
+	color: #292e32;
+}
+.guige{
+	float: left;
+	margin-left: 20px;
+	height: 71px;
+	margin-top: 19px;
+	padding-top: 5px;
+	border-left: 2px solid #fdd900;
+	padding-left: 21px;
+}
+.guige span{
+	line-height: 21px;
+	display: block;
+	font-size: 14px;
+	color: #717276;
+}
+.qjs{
+	flex-grow: 2
+}
+.qjs a:nth-child(1){
+	float: right;
+	width: 210px;
+	line-height: 46px;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 34px;
+	background-color: #fdd900;
+	color: #000
+}
+.qjs a:nth-child(2){
+	width: 132px;
+	line-height: 46px;
+	color: #fff;
+	text-align: center;
+	float: right;
+	margin-top: 34px;
+	background-color: #2b2e33;
+}
+.xiabian{
+	width: 1130px;
+	margin: 0 auto;
+	margin-top: 75px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+}
+.xias{
+	display: flex;
+	/*flex-direction: column;*/
+}
+.xiax{
+	display: flex;
+}
+.xiabian>div>img{
+	display: block;
+}
+.xiabian>div:last-child{
+	margin-right: 0px;
+}
+.xias span:nth-child(1){
+	display: block;
+	width: 180px;
+	font-size: 18px;
+	color: #2b2e33
+}
+.xias>span:nth-child(2){
+	float: right;
+	width: 980px;
+	margin-top: 10px;
+	background-color: #fdd900;
+	height: 2px;
+	margin-bottom: 15px;
+}
+.xiax>div{
+	width: 196px;
+	margin:30px 30px 0 0;
+	padding-top: 50px;
+}
+.xiax>div>div{
+ padding: 10px;
+ border: 1px solid #ccc;
+ border-top: 0px;
+ display: flex;
+ flex-direction: column;
+ margin-top: -10px;
+}
+.xiax>div>div>span:nth-child(1){
+	font-size: 14px;
+}
+.xiax>div>div>div>span:nth-child(1){
+	margin-top: 20px;
+	float: left;
+	color: red;
+	font-size: 20px;
+}
+.xiax>div>div>div>a:nth-child(2){
+	float: right;
+	width: 66px;
+	height: 25px;
+	background: url("./images/gouwudai_11.jpg");
+	margin-top: 20px;
+}

@@ -1,0 +1,38 @@
+.banner{
+	width: 1200px;
+	margin: 0 auto;
+	background: url("./images/banner_14.jpg");
+	position: relative;
+}
+.banner_on{
+  background: url("images/warp_18.jpg");
+  margin-left: -50px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+.banner img{
+  display: block;
+
+}
+.slick-slider{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 1100px;
+  margin: 0 auto;
+}
+.banner .slick-prev:before,.banner .slick-next:before{
+  font-size: 40px;
+}
+.banner .slick-prev, .banner .slick-next{
+  width: 40px;
+  height: 40px;
+}
+.banner .slick-prev{
+  left:-45px;
+}
+.banner .slick-next{
+  right: -45px;
+}
+.banner .slick-list{
+	margin-left: 5px;
+}

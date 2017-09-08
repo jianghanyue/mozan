@@ -1,0 +1,123 @@
+.tanchuang{
+	display: block;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+  z-index: 50
+}
+.denglul{
+	position: absolute;
+	left: 50%;
+	margin-left: -210px;
+	margin-top: 5px;
+	width: 380px;
+	height: 498px;
+	background-color: #fff;
+	padding: 20px;
+}
+.fenxiang{
+	width: 420px;
+	height: 66px;
+	background-color: #fff;
+	position: absolute;
+	left: 50%;
+	margin-left: -210px;
+	margin-top: 545px;
+	background: url("./images/fenxiang_15.jpg");
+}
+
+.denglul a:nth-child(1){
+	float: right;
+	font-size: 26px;
+	font-weight: bold;
+	color: #000;
+}
+.denglul img:nth-child(2){
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.denglul input{
+	width: 376px;
+	height: 43px;
+}
+.denglul input:nth-child(3){
+	width: 321px;
+	height: 43px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding-left: 55px;
+}
+.denglul input:nth-child(5){
+	width: 321px;
+	margin-bottom: 20px;
+	padding-left: 55px;
+}
+.denglul input:nth-child(7){
+	margin-bottom: 20px;
+	width: 220px;
+}
+.denglul img:nth-child(9){
+	float: right;
+}
+.denglul a:nth-child(10){
+	display: block;
+	width: 380px;
+	line-height: 46px;
+	font-size: 24px;
+	color: #000;
+	text-align: center;
+	background-color: #fff500;
+	margin-top: 23px;
+}
+.denglul a:nth-child(11){
+	float: left;
+	margin-top: 55px;
+	font-size: 14px;
+	color: #000;
+}
+.denglul a:nth-child(12){
+	float: right;
+	margin-top: 55px;
+	font-size: 14px;
+	color: #000;
+}
+.denglul span:nth-child(13){
+	width: 47px;
+	height: 47px;
+	background: url("./images/put1_03.jpg") 15px 12px no-repeat;
+	display: block;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 167px;
+	left: 20px;
+}
+.denglul span:nth-child(14){
+	width: 47px;
+	height: 47px;
+	background: url("./images/put2_07.jpg") 15px 12px no-repeat;
+	display: block;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 236px;
+	left: 20px;
+}
+.denglul span:nth-child(4),.denglul span:nth-child(6),.denglul span:nth-child(8){
+	font-size: 12px;
+	line-height: 20px;
+	float: right;
+	color: red;
+	display: none;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

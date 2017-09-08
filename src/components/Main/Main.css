@@ -1,0 +1,135 @@
+html, body, div, span, h1, h2, h3, h4,a,  em, font, img, var, ul, li,
+table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+.wrap .index{
+	padding-top: 30px;
+
+	width: 1100px;
+	margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.section{
+  background-color: #2b2e33;
+  width: 1150px;
+  padding-left: 50px;
+  margin-left: -50px;
+}
+.zjm{
+  display: flex;
+}
+
+article{
+	padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+article>div{
+	margin-bottom: 30px;
+  display: flex;
+}
+article>div>span:nth-child(1){
+	width: 64px;
+	line-height: 26px;
+  height: 26px;
+	background-color: #fff;
+	border-radius: 10px;
+	font-size: 12px;
+	text-align: center;
+	margin-right: 30px;
+  display: block;
+}
+.dingjin b b{
+	font-size: 36px;
+}
+.dingjin b{
+	font-size: 24px;
+	color: #fdd900;
+}
+.dingjin span:nth-child(1){
+  margin-top: 20px;
+}
+.dingjin .dj span:nth-child(3){
+	font-size: 18px;
+	color: #fff;
+	line-height: 18px;
+}
+.cm{
+  display: flex;
+  width: 320px;
+  flex-wrap: wrap;
+}
+.kuanshi a,.chima .cm a,.shuliang a{
+	width: 79px;
+	line-height: 26px;
+	font-size: 14px;
+	margin-right: 5px;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	text-align: center;
+	color: #fff;
+  display: block;
+}
+.chima{
+	width: 380px;
+	margin-bottom: 20px;
+}
+.chima span{
+	margin-bottom: 20px
+}
+.chima .cm a{
+	width: 64px;
+	margin-bottom: 5px;
+}
+.shuliang a{
+	width: 69px;
+	line-height: 38px;
+}
+.shuliang span:nth-child(3){
+	line-height: 37px;
+	width: 160px;
+	text-align: center;
+	color: #fff;
+}
+.anniu{
+	padding: 20px 0;
+	border-top: 2px solid #4f4f4f;
+	border-bottom: 2px solid #4f4f4f;
+	margin-top: 20px;
+}
+.anniu a{
+	width: 1100px;
+	border-radius: 15px;
+	border: 3px solid #fdd900;
+	display: block;
+	line-height: 84px;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	color: #fdd900;
+}
+.bichu{
+	margin-left: -50px;
+	position: relative;
+}
+.buchuc{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.ditu{
+	margin-bottom: -4px
+}
+article .cm .cor,article .kuanshi .cor{
+	border: 1px solid #fdd900;
+	color: #fdd900
+}
