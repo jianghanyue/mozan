@@ -4,6 +4,8 @@ import b from './images/ditu_07.jpg'
 import c from './images/bichu_07.jpg'
 import Banner from '../Banner/Banner'
 import Daojishi from './Daojishi/Daojishi'
+import { Link } from 'react-router-dom'
+
 
 class Main extends Component {
   state={
@@ -91,7 +93,7 @@ bianseClick2=(i,item)=>{
             </article>
           </div>
           <div className="anniu">
-            <a className="yuding" href="jiarugouwuche.html">立即预定</a>
+            <Link className="yuding" to="/join">立即预定</Link>
           </div>
           <div className="bichu">
             <img className="ditu" src={b}/>

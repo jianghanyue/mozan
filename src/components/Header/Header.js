@@ -11,6 +11,7 @@ import gouwudai from './images/gouwudai.svg'
 import sousuo from './images/sousuo.svg'
 import caidan from './images/caidan.svg'
 import Login from '../Login/Login'
+import { Link } from 'react-router-dom'
 
 class Header extends Component {
   render() {
@@ -23,7 +24,7 @@ class Header extends Component {
       <div className="top_a">
         <div className="top_on">
           <a href="#"><img src={caidan} /></a>
-          <a href="index.html"><img src={b} alt=""/></a>
+          <Link to='/'><img src={b} alt=""/></Link>
           <div className="denglu">
             <img src={sousuo} alt=""/>
             <img src={gouwudai} alt=""/>

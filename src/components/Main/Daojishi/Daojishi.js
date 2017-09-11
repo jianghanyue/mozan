@@ -49,7 +49,10 @@ class Daojishi extends Component {
       })
   }
   componentDidMount = () => {
-    window.setInterval(this.shijian, 1000)
+    this.time = window.setInterval(this.shijian, 1000)
+  }
+  componentWillUnmount = () => {
+    window.clearInterval(this.time)
   }
   render() {
       const {date,hour,min,sec}=this.state

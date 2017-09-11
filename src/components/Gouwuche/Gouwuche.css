@@ -37,7 +37,7 @@
 .hed span:nth-child(4){
 	margin-right: 50px;
 }
-.section_on{
+.section_onn{
 	width: 1200px;
 	margin: 0 auto;
 	padding-bottom: 80px;
@@ -248,7 +248,7 @@
 .zongshu>span{
 	color: red
 }
-.wrap .section_on .bcg{
+.wrap .section_onn .bcg{
 	background: url("./images/huangduihao_07.jpg");
 }
 .clearb{

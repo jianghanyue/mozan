@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import './Gouwuche.css';
 import gouwuchekong from './images/gouwuchekong_03.jpg'
 import Li from '../Li/Li'
+import { Link } from 'react-router-dom'
 
 class Gouwuche extends Component {
   render() {
     return (
       <section className="sgwc">
-  			<div className="section_on clearfix">
+  			<div className="section_onn clearfix">
   				<div className="top">
             <div className="hed clearfix">
               <h1>购物车 <span className="zongshu">[<span>99</span>件]</span></h1>
@@ -41,7 +42,7 @@ class Gouwuche extends Component {
               <a className="clearc" href="javascript:void(0);">不删除</a>
               <a className="clearcc" href="javascript:void(0);">确定删除</a>
             </div>
-            <a className="qujiesuan" href="tijiaodingdan.html">去结算</a>
+            <Link className="qujiesuan" to="/tijiaodingdan">去结算</Link>
           </div>
 
         </div>

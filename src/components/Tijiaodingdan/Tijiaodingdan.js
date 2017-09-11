@@ -4,6 +4,7 @@ import dingdanren from "./images/dingdanren_15.jpg"
 import yushou from "./images/yushou_03.png"
 import xiaoduigou from "./images/xiaoduihao_11.jpg"
 import Ddli from '../Ddli/Ddli'
+import { Link } from 'react-router-dom'
 
 class Tjiaodingdan extends Component {
   render() {
@@ -35,7 +36,7 @@ class Tjiaodingdan extends Component {
         <div className="min_on">
           <div className="min clearfix">
             <h3>商品信息</h3>
-            <a href="gouwuche.html">返回购物车修改</a>
+            <Link to="/gouwuche">返回购物车修改</Link>
             <ul>
               <li className="clearfix">
                 <img src={dingdanren} alt="" />
@@ -109,7 +110,7 @@ class Tjiaodingdan extends Component {
             <span>=</span>
             <span>￥168.00</span>
           </div>
-          <a className="tijiaodingdan" href="shouyintai.html">提交订单</a>
+          <Link className="tijiaodingdan" to="/order">提交订单</Link>
         </div>
       </section>
 
